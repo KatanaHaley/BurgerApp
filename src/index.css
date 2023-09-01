@@ -5,9 +5,53 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.card {
+  width: 80vw;
+  background-color: orange;
+  border-radius: 2%;
+  margin: 8px;
+  padding: 10px;
+}
+
+.visited {
+  height:30px;
+  width:30px;
+  border-radius: 15px;
+  background-color: greenyellow;
+}
+
+.visited-text {
+  display: flex;
+  flex-direction: row; 
+
+  text-align: left;
+  margin: 10px;
+  padding:10px;
+}
+
+.not-visited {
+  height:30px;
+  width:30px;
+  border-radius: 15px;
+  background-color: red;
+}
+
+h1 {
+  color: black;
+  display: flex;
+  justify-content:center;
 }
