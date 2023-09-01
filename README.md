@@ -1,4 +1,4 @@
-# A Create React App for Finding Burger Spots
+# A Create React App for Finding Burger Spots 🍔
 
 ## Built with React, Express, a NoSQL Datastax Database, & CSS
 
