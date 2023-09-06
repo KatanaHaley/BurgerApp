@@ -45,15 +45,15 @@ const config = {
 
 const SearchUI = () => {
   return (
-    <div>
-        <SearchProvider config={config}>
+    <div className="w-lg md:w-xl lg:w-3xl">
+    <SearchProvider config={config}>
     <WithSearch mapContextToProps={({ wasSearched }) => ({ wasSearched })}>
       {({ wasSearched }) => {
         return (
-          <div className="App">
+          <div class="grid grid-cols-1">
             <ErrorBoundary>
             <h2>Search Food Reviews </h2>
-
+            <div>
               <Layout
                 header={<SearchBox autocompleteSuggestions={true} />}
                 sideContent={
@@ -70,6 +70,7 @@ const SearchUI = () => {
                   </div>
                 }
                 bodyContent={
+
                   <Results
                     titleField={getConfig().titleField}
                     urlField={getConfig().urlField}
@@ -85,6 +86,7 @@ const SearchUI = () => {
                 }
                 bodyFooter={<Paging />}
               />
+              </div>
             </ErrorBoundary>
           </div>
         );

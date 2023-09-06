@@ -45,8 +45,7 @@ const config = {
 
 const SearchUI = () => {
   return (
-    <div>
-        <SearchProvider config={config}>
+      <SearchProvider config={config}>
     <WithSearch mapContextToProps={({ wasSearched }) => ({ wasSearched })}>
       {({ wasSearched }) => {
         return (
@@ -91,7 +90,6 @@ const SearchUI = () => {
       }}
     </WithSearch>
   </SearchProvider>
-    </div>
   )
 }
 

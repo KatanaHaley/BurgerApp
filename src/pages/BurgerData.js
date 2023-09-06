@@ -20,7 +20,7 @@ const BurgerData = () => {
 
   return (
     <div>
-      <h1 className="h2">Find The Best Burgers in the DFW</h1>
+      <h1 className="">Find The Best Burgers in the DFW</h1>
     <div className="burger-feed">
       {data?.map(data => <Card key={data.id} data={data}/>)}
     </div>

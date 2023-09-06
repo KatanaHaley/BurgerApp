@@ -1,4 +1,6 @@
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body {
   margin: 0;
@@ -37,7 +39,7 @@ code {
 
 
 .card {
-  width: 80vw;
+  width: 90vw;
   background-color: orange;
   border-radius: 2%;
   margin: 8px;
