@@ -1,0 +1,33 @@
+{
+  "engineName": "search-best-burgers",
+  "endpointBase": "https://quick-start-enterprise-search.ent.us-central1.gcp.cloud.es.io",
+  "searchKey": "search-36j9j71aqs7rfv6hqqbx17ny",
+  "resultFields": [
+    "additional_urls",
+    "body_content",
+    "domains",
+    "headings",
+    "last_crawled_at",
+    "links",
+    "meta_description",
+    "meta_keywords",
+    "title",
+    "url",
+    "url_host",
+    "url_path",
+    "url_path_dir1",
+    "url_path_dir2",
+    "url_path_dir3",
+    "url_port",
+    "url_scheme",
+    "id"
+  ],
+  "sortFields": [
+
+  ],
+  "facets": [
+
+  ],
+  "titleField": "title",
+  "urlField": "url"
+}

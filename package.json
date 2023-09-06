@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@elastic/elasticsearch": "^8.9.0",
+    "@elastic/react-search-ui": "^1.20.2",
+    "@elastic/react-search-ui-views": "^1.20.2",
+    "@elastic/search-ui-app-search-connector": "^1.20.2",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -14,8 +18,15 @@
     "nodemon": "^3.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.15.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.29",
+    "rewire": "^6.0.0",
+    "tailwindcss": "^3.3.3"
   },
   "scripts": {
     "start:frontend": "react-scripts start",

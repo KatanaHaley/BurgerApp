@@ -2,10 +2,20 @@ import express, { json } from 'express';
 import cors from 'cors';
 import morgan from 'morgan';
 import fetch from 'node-fetch';
+// import { Client } from '@elastic/elasticsearch';
 const PORT = 8000;
 
 import 'dotenv/config';
 
+// const client = new Client({
+//     cloud: {
+//       id: 'Quick_Start_Enterprise_Search:dXMtY2VudHJhbDEuZ2NwLmNsb3VkLmVzLmlvOjQ0MyQyZmJkOTM4MWZmOTk0MTM3OWJiMWM3YTUyZWM3NjY4MSRjOWFjOWI0NTJmNDA0ZjBjYjkwN2NmZDRiMTdmYzhiNw==',
+//     },
+//     auth: {
+//       username: 'elastic',
+//       password: 'EdUQXG1KQMX0uQ9mdst3NoUZ'
+//     }
+//   })
 
 const app = express();
 app.use(morgan('tiny'));

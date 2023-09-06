@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import Card from './Card.js';
+import Card from '../components/Card.js';
 
 const BurgerData = () => {
   const [data, setData] = useState([]);
